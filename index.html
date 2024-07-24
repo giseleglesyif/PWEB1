@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckList Pro</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logoAba.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <h1 class="titulo">CheckList Pro</h1>
+        <nav class="navegacao">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="task-section">
+            <h2>LISTA DE TAREFAS</h2>
+            <label for="user-filter">Filtrar por ID do Usuário:</label>
+            <input type="number" id="user-filter" name="user-filter">
+            <button id="filter-button">Filtrar</button>
+            <ul id="task-list"></ul>
+        </section>
+        <section id="add-task-section">
+            <h2>Adicionar Nova Tarefa</h2>
+            <form id="task-form">
+                <label for="user-id">ID do Usuário:</label>
+                <input type="number" id="user-id" name="user-id" required>
+                
+                <label for="title">Título da Tarefa:</label>
+                <input type="text" id="title" name="title" required>
+                
+                <label for="description">Descrição:</label>
+                <textarea id="description" name="description"></textarea>
+
+                <label for="completed">Concluída:</label>
+                <select id="completed" name="completed">
+                    <option value="false">Não</option>
+                    <option value="true">Sim</option>
+                </select>
+                
+                <button type="submit">Adicionar Tarefa</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

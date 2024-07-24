@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'LasAmericas';
+    src: url('LasAmericas.otf') format('truetype');
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.titulo {
+    color: pink;
+    font-family: 'LasAmericas', sans-serif;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    border: solid 3px rgb(240, 78, 240);
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.cabecalho {
+    background-color: #4a147c;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 3px rgb(238, 27, 220);
+}
+
+.navegacao ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.navegacao ul li {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.navegacao ul li a {
+    color: pink;
+    text-decoration: none;
+}
+
+.navegacao a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#task-section h2,
+#task-section ul li {
+    display: flex;
+    justify-content: center;
+}
+
+#task-section h2 {
+    font-size: 2em;
+    color: pink;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#task-section {
+    color: pink;
+}
+
+#task-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+#task-list li span {
+    flex-grow: 1;
+}
+
+#task-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5f7;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+#task-form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#task-form input,
+#task-form textarea,
+#task-form select {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 500px;
+}
+
+#task-form button {
+    align-self: flex-start;
+    background-color: #28a745;
+}
+
+#task-form button:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+}
+
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+#user-filter {
+    width: 100px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+#filter-button {
+    background-color: #17a2b8;
+}
+
+#filter-button:hover {
+    background-color: #138496;
+}

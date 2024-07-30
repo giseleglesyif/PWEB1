@@ -1,4 +1,4 @@
-O projeto de gestão de tarefas, foi criado pelos alunos: Lara Larissa Peixoto Da Silva, Gisele Glêsy de Lima Jacinto e Jaelson Costa Bastos Sobrinho. 3° ano "B" turno Vespertino.
+O projeto de gestão de tarefas, foi criado pelos alunos: Lara Larissa Peixoto Da Silva, Gisele Glêsy de Lima Jacinto e Jaelson Costa Bastos Sobrinho, Letícia Noemi. 3° ano "B" turno Vespertino.
 
 O intuito do projeto de gestão de tarefas, como o Checklist Pro, tem como objetivo principal organizar e otimizar a maneira como as tarefas são planejadas, executadas e monitoradas dentro de uma equipe ou ou organização, tendo a Organização Eficiente, Priorização, Acompanhamento de Progresso, Comunicação Aprimorada, Transparência e Análise de Desempenho. Os usuários do projeto Checklist Pro, podem usar o projeto através dos seguintes passos: 
  
